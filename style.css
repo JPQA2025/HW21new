@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-color: #00FA9A; 
+}
+
+.magic {
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  color: #0000FF;
+  text-align: center;
+  font-family: Georgia, serif;
+  text-shadow: 3px 3px 6px white;
+  }
+p {
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 20px;
+}
+
+.glow {
+  color: white;
+  text-shadow: 0 0 10px cyan, 0 0 20px blue;
+}
+
+.my-link {
+  color: blue;      
+  text-decoration: none; 
+}
+
+.my-link:hover {
+  color: yellow;         
+  text-decoration: underline;
+}
+
+#typewriter {
+  font-family: "Courier New", monospace; 
+  overflow: hidden;
+  white-space: nowrap; 
+  width: 10ch; 
+  animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 10ch; }
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+
+</body>
+</html>
+
+
